@@ -150,19 +150,16 @@
 
     <script src="assets/js/application.js"></script>
 
-<script type="text/javascript">
-      $('#clipartModal').on('hidden', function() {
-        $(this).removeData('modal');
-      });
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      $(document).on("click", "#clipart", function () {
-     var myBookId = $(this).data('clipart');
-      console.log(myBookId);
-     // As pointed out in comments, 
-     // it is superfluous to have to manually call the modal.
-     // $('#addBookDialog').modal('show');
-});
-    </script>
+  ga('create', 'UA-41474555-1', 'skypiea.co');
+  ga('send', 'pageview');
+
+</script>
 
   </body>
 </html>
