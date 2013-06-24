@@ -272,6 +272,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   font-weight: 200;
   line-height: 1;
   letter-spacing: -1px;
+  text-align: left;
 }
 .marketing h2 {
   font-weight: 200;
@@ -287,6 +288,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   font-weight: 300;
   line-height: 1.25;
   color: #999;
+  text-align: left;
 }
 .marketing-img {
   display: block;
@@ -726,6 +728,11 @@ form.bs-docs-example {
   display: inline-block;
 }
 
+.left-img {
+  display: block;
+  margin: 20px auto;
+}
+
 /* Tooltips */
 .bs-docs-tooltip-examples {
   text-align: center;
@@ -1064,10 +1071,10 @@ form.bs-docs-example {
   /* Marketing on home */
   .marketing h1 {
     font-size: 30px;
-  }
+}
   .marketing-byline {
     font-size: 18px;
-  }
+}
 
   /* center example sites */
   .example-sites {
