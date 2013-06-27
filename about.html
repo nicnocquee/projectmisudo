@@ -9,8 +9,45 @@
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 57px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -58,29 +95,34 @@
       </div>
     </div>
 
-<div class="container">
+<div class="container-narrow">
+  <div class="jumbotron">
+    <h1>Stories Through Pictures.</h1>
+  </div>
 
-  <div class="marketing">
+  <div class="marketing"> 
 
-    <h1>Stories through pictures.</h1>
+    <section id="aboutus">
+    <p>We are a little online shop that sells really awesome, quirky, silly, loverly, funny illustrated clip arts. We've seen a lot of powerpoint presentations in our time, some good, but most are pretty meh.</p>
     
-    <hr class="soften">
-    
-    <p class="marketing-byline">We are a little online shop that sells really awesome, quirky, silly, loverly, funny illustrated clip arts.<br/> We've seen a lot of powerpoint presentations in our time, some good, but most are pretty meh.</p>
-    
-    <p class="marketing-byline">The best presentations are ones that can get the job done; <br/>convey your message and ideas in an easy to understand and memorable way.</p>
-    
-    <p class="marketing-byline">One of the best mediums for this is story telling though comics.  We love comics, we also love funny faces! <br/>We built Skypiea to bring together brilliant illustrations by talented artists from around the world to make your storytelling better.</p>
-    
-    <hr class="soften">
+    <p>The best presentations are ones that can get the job done; convey your message and ideas in an easy to understand and memorable way. One of the best mediums for this is story telling though comics.  We love comics, we also love funny faces! </p>
+
+    <p>We built Skypiea to bring together brilliant illustrations by talented artists from around the world to make your storytelling better.</p>
+    </section>
+
+    <section id="artist">    
+    <div class="page-header">
     <h1>Are you an artist?</h1>
-    <hr class="soften">
-    
-    <p class="marketing-byline">If you like to doodle and would like to get paid doing something you love, then we'd like to speak with you. <br/>We are just getting started, and our goals are modest; You create it; promote it; Profit.<br/>If you'd like to know more, click the button below.</p>
-    <div class="row-fluid">
-      <a class="btn btn-large btn-success" href="#myModal" data-toggle="modal">I want to join Skypiea!</a>
     </div>
     
+    <p>If you like to doodle and would like to get paid doing something you love, then we'd like to speak with you. </p>
+
+    <p>We are just getting started, and our goals are modest;</p> 
+    <h4>You Create It; We Promote It; Everyone Profits</h4>
+
+    <p>If you'd like to know more, click the button below.</p>
+    <a class="btn btn-large btn-success" href="#myModal" data-toggle="modal">I want to join Skypiea!</a>
+    </section>
     
     <!-- Modal -->
     <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -116,7 +158,7 @@
    <footer class="footer">
      <div class="container">
        
-       <div class="row-fluid">
+       <div class="row">
        	<div class="span2">
        		<p>&copy;  Skypiea 2013.</p>
        	</div>
